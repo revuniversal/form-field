@@ -1,0 +1,20 @@
+{
+  "name": "form-field",
+  "version": "0.1.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Rev Herr",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.14",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-spec-reporter": "0.0.22"
+  }
+}

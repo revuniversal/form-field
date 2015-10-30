@@ -1,0 +1,30 @@
+{
+  "name": "form-field",
+  "authors": [
+    "Rev Herr <revuniversal@gmail.com>"
+  ],
+  "description": "form-field directives to dry up angular form markup",
+  "main": "src/index.js",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "forms"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "jasmine-core": "jasmine#~2.3.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.7"
+  }
+}
