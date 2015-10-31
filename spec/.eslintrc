@@ -1,0 +1,12 @@
+{
+    "env": {
+      "jasmine": true
+    },
+
+    "globals": {
+      "module": true,
+      "inject": true
+    },
+
+    "extends": "../.eslintrc"
+}
