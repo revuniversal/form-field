@@ -12,22 +12,30 @@ __TODOs__
   - input[maxLength]
   - input[required]
 - bind errors to <error-messages>
-- figure out submit binding
+- figure out capturing submit
 - figure out server error binding
-- feed
+- feed server errors to angular form controller
+- Use JSON Schema?
+
 ---
 
 ### Usage (work in progress)
 
 ```html
 <form name="vm.form"
-      model="vm.model"
-      model-spec="{
+      form-model="vm.model"
+      form-model-schema="{
         name: {
+          type: "string",
           required: true,
-          maxLength: 30,
-
-        }
+          maxLength: 30
+        },
+        age: {
+          type: "integer",
+          min: 0,
+          max: 150
+        },
+        required: []
       }">
 
   <div class="form-group"
