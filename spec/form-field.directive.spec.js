@@ -1,11 +1,11 @@
 'use strict';
 
 describe('directive: form-field directive', () => {
-  var scope, element, $compile, $rootScope;
+  var scope, $compile, $rootScope;
 
   beforeEach(module('form.field'));
 
-  beforeEach(inject(function(_$rootScope_, _$compile_) {
+  beforeEach(inject((_$rootScope_, _$compile_) => {
     $rootScope = _$rootScope_;
     $compile = _$compile_;
     scope = $rootScope.$new();
