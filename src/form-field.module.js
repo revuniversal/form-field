@@ -1,2 +1,2 @@
 angular
-  .module('form.field', []);
+  .module('formModel', []);

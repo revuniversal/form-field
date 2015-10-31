@@ -1,17 +1,12 @@
 angular
-  .module('form.field')
-  .directive('formField', formFieldDirective);
+  .module('formModel')
+  .directive('formModel', formModelDirective);
 
-function formFieldDirective() {
+function formModelDirective() {
   return {
     restrict: 'A',
-    template: '<span></span>',
-    link: link
-  };
-
-  function link(scope, el, attrs) {
-    if (attrs.formField) {
-      scope.formField = attrs.formField;
+    scope: {
+      formModel: '='
     }
-  }
+  };
 }

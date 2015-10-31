@@ -1,10 +1,9 @@
-# form-field (name will change)
+# form-model
 
 ---
 
 __TODOs__
 
-- Rename (to form-model?)
 - auto-fill attributes
   - label[for]
   - input[id]
